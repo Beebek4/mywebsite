@@ -46,7 +46,7 @@ export default function Home() {
 
           <aside className="max-md:mx-auto relative lg:h-96 lg:w-96 h-64 w-64 bg-white rounded-lg p-4">
             <p className=" p-5 text-center">
-            As a Hong Kong-born Nepali raised in the United Kingdom, I am currently pursuing a Computer Science degree at Queen Mary University. Coming from a humble background to now attending a top Russell Group university, I have incorporated all experiences from my past to become the enthusiastic, creative, and curious individual I am today.
+            A Hong Kong born Nepali raised in the United Kingdom, I am now currently pursuing a Computer Science degree at Queen Mary University. Coming from a humble background to now attending a top russell group university, I have incorporated all experiences from my past to become the enthusiastic, creative and curious individual I am today. 
             </p>
           </aside>
 
