@@ -1,5 +1,8 @@
 import workdata from "./workdata";
 import projectData from "./projectData";
+import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { PiArrowBendLeftUpBold } from "react-icons/Pi";
+
 
 export default function Home() {
 
@@ -27,7 +30,7 @@ export default function Home() {
             .Contact
         </a>
 
-        <a className=' bg-amber-900 text-white px-4 pt-2 rounded-md ml-4 transition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 duration-300' href="/resume.pdf" target="_blank">Resume</a>
+        <a className=' bg-amber-900 text-white px-4 pt-2 rounded-md ml-4 transition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 duration-300' href="/resume.docx" target="_blank">Resume</a>
           
       </nav>
 
@@ -44,7 +47,7 @@ export default function Home() {
             <img src="/facepic2.JPG" className="rounded-lg absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500 hover:opacity-100"/>
           </div>
 
-          <aside className="max-md:mx-auto relative lg:h-96 lg:w-96 h-64 w-64 bg-white rounded-lg p-4">
+          <aside className="max-md:mx-auto relative lg:h-96 lg:w-96 w-64 bg-white rounded-lg p-4 h-fit">
             <p className=" p-5 text-center">
             A Hong Kong born Nepali raised in the United Kingdom, I am now currently pursuing a Computer Science degree at Queen Mary University. Coming from a humble background to now attending a top russell group university, I have incorporated all experiences from my past to become the enthusiastic, creative and curious individual I am today. 
             </p>
@@ -52,6 +55,30 @@ export default function Home() {
 
         </div>
 
+        <div className="flex max-lg:hidden lg:gap-40 md:gap-20 items-center justify-center">
+
+          <div className="max-md:mx-auto relative lg:w-96 w-64 rounded-lg p-4 h-fit flex items-center justify-center ">
+            <h3><PiArrowBendLeftUpBold/> Hover on me!</h3>
+          </div>
+          <aside className="max-md:mx-auto relative lg:w-96 w-64 rounded-lg p-4 h-fit">
+          </aside>
+
+        </div>
+
+
+
+        <div className="flex lg:gap-40 md:gap-20 sm:gap-15 items-center justify-center mt-20">
+            <a href="https://www.linkedin.com/in/beebeklimbu/" target="_blank">
+              <p className=" text-6xl"><AiFillLinkedin/></p> 
+            </a>
+            <a href="https://github.com/Beebek4" target="_blank">
+              <p className=" text-6xl"><AiFillGithub/></p> 
+              
+            </a>
+            <a href="https://www.instagram.com/beebek.4/" target="_blank">
+              <p className=" text-6xl"><AiFillInstagram/></p> 
+            </a>
+        </div>
         
 
       </section>
@@ -113,7 +140,7 @@ export default function Home() {
             Get In Touch
         </h2>
       <p className="text-lg mb-6">Feel free to reach out to me for any inquiries or opportunities.</p>
-      <div className="top-0 px-10 py-5">
+      <div className="top-0 px-10 py-5 flex justify-center items-center">
         <a className="bg-green-600 text-white px-6 py-4 rounded-md ml-4 hover:bg-green-800 duration-100" href="mailto:limbubeebek@gmail.com">limbubeebek@gmail.com</a>
       </div>
 
