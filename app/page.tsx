@@ -1,7 +1,7 @@
 import workdata from "./workdata";
 import projectData from "./projectData";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { PiArrowBendLeftUpBold } from "react-icons/Pi";
+import { PiArrowBendLeftUpBold } from "react-icons/pi";
 
 
 export default function Home() {
